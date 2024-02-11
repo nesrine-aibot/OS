@@ -45,9 +45,27 @@ why ?
 becuase in the hardware we can execute multiple OS , why  ? 
 because there is a pplication that run just in windows and so on 
 another name : HYPERVISOR  
+they can connect throuth the network like a two separated machines but hte y are in the same os 
 
 
 Clustered OS : 
+multiple machines  , connected throught the network , the user will see them as a single machine 
+
+
+
+                                Exercise 2 (Computer Architecture)
+
+
+What are the main components of a computer according to the VNA? 
+why we care about archi ?
+to konw how to link this harwares togheter to achieve the effeciecy of the computation 
+
+memory , cpu I/O linked by 3 tpes of buses : 
+control bus : 
+data bus : 
+address bus : memory address  I/O  devises 
+the cpu want to store something in hte memory he send the address throught the address buc and the data throught the data bus , and send the operation in the control bus for example WRITE 
+
 
 
 

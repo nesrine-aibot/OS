@@ -1,0 +1,58 @@
+              multi programming : 
+we can load multiple programms in the <ram> (respect to hte memory) (we are not descussing the executinon )
+              multi taking : 
+we can load and execute multiple programs , the consept of parrent and child task
+              single tasking : 
+we can load and execute only one program at a time 
+              multi processing : 
+we need to have multiple CPUs in order to achieve this one => multiprogramin multitasking 
+              multi Threding : 
+execute multiple programs at hte same time (not real contigious programs , time slots ...) => multiprogram , multi tasking
+
+
+    Discuss the concept of time-sharing systems?
+this is the mechanism that alow to achieve the thing we were talking about , way to destribute hte ressources between the tasks
+how it works ? 
+suppose we have 60 min interval (za3ma) , it will be devided intio 3600 slots ( wich we call it quantum) the tasks will be swaped in that interval  
+
+    Relate the above concepts to the operating system you use everyday?
+if we tak windows it is all (multiprogramming , multitasking , multipthreding and multiprocessing )
+
+real time OS: 
+example when working with syesm and so on (exaple RTOS) , stuff like train , nuclear stations , airplanes 
+task : how can we make  this a real time 
+NOTE : the real time must be embedded 
+
+embedded OS: 
+computers embedded in another systems , examples : computer embeded in a cars , robots , calculators 
+the calculator , its hardware and software are implemetned to have a spesific task 
+it will be more effetient but it will serve just in this one devise 
+generally they used the microcontroles not the CPU (low in term of performence , costs , less transistors , less circuits , less power)
+
+Mobile OS : 
+mobile is a spesific hardware , it has some particularities , even the way we use it 
+it is multisking anad so on 
+
+Distributed OS : 
+we have deffernet computers , all the computers must have the same os 
+
+Network OS :
+not nessessary  all the computers must have the same os, and the computers will be connected throught the network and son on 
+
+Virtualization OS : 
+people start thinking about having multiple os in the same machine at the same time , using virtual boxes (VM) , not Dual bot !!
+why ? 
+becuase in the hardware we can execute multiple OS , why  ? 
+because there is a pplication that run just in windows and so on 
+another name : HYPERVISOR  
+
+
+Clustered OS : 
+
+
+
+
+
+
+
+

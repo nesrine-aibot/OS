@@ -1,0 +1,7 @@
+iper threade , Hyperthreding : defind by the system  this is physical the hard program will manage thhis 
+multithreding : using time sharring is at the level of the OS 
+the constructor to suppport multi concorency 
+each core have is own ALU CU
+the assambly is a hight level language
+the assambly and the compiler are designed regarding the architecture of the computer , and the OS 
+clock cycle : inti9al bin 1 et 0 

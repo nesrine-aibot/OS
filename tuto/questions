@@ -1,1 +1,5 @@
 timer : esue context switching ysra lazem bi intrupt 
+
+Each thread is associated to a data structure called TCB (Thread Con-
+trol Block) which contains the thread’s Identifier, thread’s state, prior-
+ity, thread’s registers, and a pointer to the original process PCB.

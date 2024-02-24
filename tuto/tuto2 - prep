@@ -1,0 +1,17 @@
+exo 4 : 
+ax = c*a 
+XOR ax ax is o , so the instruction div ax will attemp to div 0/0 wich is impossible , so the cpu will raise a software execption intrupt 
+and the program will be intrepreted , and the appropriate handler will take its place 
+
+exo5 : 
+the value that will be pushed into the stack is the value that in wich thte execution of the program was stoped ,
+so it is 0XFBC4 
+the cpu it self 
+we are reffering to the stack of the process it self wich is pointed by the pointer SS in the registeres 
+
+
+exo6  :
+the code of the intereperet handler since the process is intrupted all the values of the registers will be pushed onto 
+its stack and the pc will be apdated to the pc of the intrupt handler wich will use the ax for its own purpuse 
+
+2 - process management : 

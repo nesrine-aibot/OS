@@ -1,0 +1,7 @@
+seamphores is a software solution to solve the critical section problem 
+we have a variable that has an initial value , and we have two styleeees , it is used like kinda a lock
+when a processe enter he takes the lock , then closed the door , so the othere processes can not enter
+(the door is locked)
+the waiting style  : 
+the deffenece between the muteuel execultion and the waiting style , is that the first one can ensure that only one process at a t ime is inside the critical section 
+but in the second one wew can hwave many processes inside the block at a tine 
